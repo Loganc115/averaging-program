@@ -1,0 +1,15 @@
+
+
+def averageloop():
+    x=0
+    e=0
+    try: 
+        while x<=10:
+        #advincriment x?
+            y=int(input("input sample #"))  
+            e+=y
+            print(e)
+    except:
+        print("s")
+    return
+averageloop()
